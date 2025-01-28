@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-6 backdrop-blur-lg border-b bg-[#0C0C0C] border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-5 backdrop-blur-lg border-b bg-[#0c0c0c60] border-neutral-700/80 -mb-20">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center mb-2 lg:mb-0">
           <div className="flex items-center flex-shrink-0">
@@ -35,16 +35,16 @@ const Navbar = () => {
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
-              {mobileDrawerOpen ? <X /> : <Menu />}
+              {mobileDrawerOpen ? <X color="#F8F8F8" /> : <Menu color="#F8F8F8" />}
             </button>
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center h-[70vh] items-start lg:hidden">
+          <div className="fixed right-0 z-20 top-20 bg-neutral-900 w-full p-12 flex flex-col justify-center h-[70vh] items-start lg:hidden">
             <ul className=" w-full">
               {navItems.map((item, index) => (
-                <li key={index} className={`py-4 border-b border-gray-600 pb-6 last:border-b-0 ${index === navItems.length - 1 ? "flex items-center" : ""} `}>
-                  <a href={item.href} className="text-base text-gray-300 hover:text-gray-50">{item.label}</a>
+                <li key={index} className="flex items-center py-4 border-b border-gray-600 pb-6 last:border-b-0 w-full">
+                  < a href={item.href} className={`text-base text-gray-300 w-full hover:text-gray-50 ${index === navItems.length - 1 ? "w-fit" : ""} `}>{item.label}</a>
                   {index === navItems.length - 1 && (
                     <span className="bg-red-600 text-white px-2 pt-[1px] pb-[2px] rounded-2xl text-[10px] ml-3 flex items-center">New</span>
                   )}
