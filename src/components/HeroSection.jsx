@@ -1,8 +1,9 @@
 import { MoveUpRight, Plus } from "lucide-react";
+import heroBg from "../assets/hero-background.jpg"
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center min-h-[120vh] pt-40 px-6 bg-[url('./assets/hero-pattern.svg')]">
+    <div className="flex flex-col items-center relative min-h-[130vh] pt-40 px-6 bg-[url('./assets/hero-pattern.svg')]">
       <div className="flex flex-col lg:flex-row items-center lg:justify-between lg:gap-20">
         <div className="md:text-center lg:text-start max-w-lg md:max-w-2xl">
           <h3 className="uppercase text-sm font-light text-neutral-400">
@@ -26,9 +27,18 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-10 justify-center">
-
+      <div
+        className="flex mt-10 justify-center w-full max-w-5xl absolute mx-auto -bottom-[45%] z-10 px-4 sm:px-6"
+      >
+        <div className="border-stone-800 border-2 rounded-3xl overflow-hidden shadow-lg">
+          <img
+            className="w-full block object-cover"
+            src={heroBg}
+            alt="Our App"
+          />
+        </div>
       </div>
+
     </div>
   );
 };
