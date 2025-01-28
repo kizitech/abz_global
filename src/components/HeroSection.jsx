@@ -1,9 +1,8 @@
 import { MoveUpRight, Plus } from "lucide-react";
 
-
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen pt-40 px-6 justify-center bg-[#0C0C0C]">
+    <div className="flex flex-col items-center min-h-[120vh] pt-40 px-6 bg-[url('./assets/hero-pattern.svg')]">
       <div className="flex flex-col lg:flex-row items-center lg:justify-between lg:gap-20">
         <div className="md:text-center lg:text-start max-w-lg md:max-w-2xl">
           <h3 className="uppercase text-sm font-light text-neutral-400">
@@ -16,7 +15,7 @@ const HeroSection = () => {
         </div>
         <div>
           <p className="mt-10 text-sm md:text-base font-normal md:text-center lg:text-start text-neutral-200 max-w-lg">
-            Lorem ipsum dolor sit amet, officia suscipit reprehenderit ea provident molestiae, impedit quisquam? Exercitationem voluptas beatae et!
+            Elevate your workflow with tools designed to save time, enhance productivity, and inspire innovation. Whether you&apos;re a designer, marketer, or entrepreneur, we&apos;ve got everything you need to create stunning product visuals effortlessly.
           </p>
           <div className="flex my-10 gap-4 md:justify-center lg:justify-start">
             <a href="#" className="bg-[#2B5FEF] py-2 px-6 rounded-md text-white text-base flex items-center gap-1">
