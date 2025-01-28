@@ -3,7 +3,7 @@ import { MoveUpRight, Plus } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen pt-24 px-6 justify-center bg-[#0C0C0C]">
+    <div className="flex flex-col items-center min-h-screen pt-40 px-6 justify-center bg-[#0C0C0C]">
       <div className="flex flex-col lg:flex-row items-center lg:justify-between lg:gap-20">
         <div className="md:text-center lg:text-start max-w-lg md:max-w-2xl">
           <h3 className="uppercase text-sm font-light text-neutral-400">
