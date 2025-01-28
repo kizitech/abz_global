@@ -27,15 +27,11 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div
-        className="flex mt-10 justify-center w-full absolute mx-auto -bottom-[20%] sm:-bottom-[35%] md:-bottom-[50%] z-10 px-4 sm:px-6"
-      >
+      <div className="flex mt-10 justify-center w-full absolute mx-auto -bottom-[20%] sm:-bottom-[35%] md:-bottom-[50%] z-10 px-4 sm:px-6">
         <div className="border-stone-800 border-2 max-w-3xl md:max-w-4xl lg:max-w-5xl rounded-3xl overflow-hidden shadow-lg">
           <img
             className="w-full block object-cover"
-            src={heroBg}
-            alt="Our App"
-          />
+            src={heroBg} alt="Our App" />
         </div>
       </div>
 
