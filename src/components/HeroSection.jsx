@@ -3,7 +3,7 @@ import heroBg from "../assets/hero-background.jpg"
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center relative min-h-[120vh] sm:min-h-[130vh] pt-40 px-6 bg-[url('./assets/hero-pattern.svg')] bg-fit bg-center">
+    <div className="flex flex-col items-center relative min-h-screen sm:min-h-[120vh] md:min-h-[130vh] pt-40 px-6 bg-[url('./assets/hero-pattern.svg')] bg-fit bg-center">
       <div className="flex flex-col lg:flex-row items-center lg:justify-between lg:gap-20 relative">
         <div className="md:text-center lg:text-start max-w-lg md:max-w-2xl">
           <h3 className="uppercase text-sm font-light text-neutral-400">
