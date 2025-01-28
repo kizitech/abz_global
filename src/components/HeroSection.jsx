@@ -16,7 +16,7 @@ const HeroSection = () => {
         </div>
         <div>
           <p className="mt-10 text-sm md:text-base font-normal md:text-center lg:text-start text-neutral-200 max-w-lg">
-            Elevate your workflow with tools designed to save time, enhance productivity, and inspire innovation. Whether you&apos;re a designer, marketer, or entrepreneur, we&apos;ve got everything you need to create stunning product visuals effortlessly.
+            Elevate your workflow with tools designed to save time, enhance productivity. Whether you&apos;re a designer, marketer, or entrepreneur, you can create stunning product effortlessly.
           </p>
           <div className="flex my-10 gap-4 md:justify-center lg:justify-start">
             <a href="#" className="bg-[#2B5FEF] py-2 px-6 rounded-md text-white text-base flex items-center gap-1">
