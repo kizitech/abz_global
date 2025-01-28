@@ -44,7 +44,7 @@ const Navbar = () => {
             <ul className=" w-full">
               {navItems.map((item, index) => (
                 <li key={index} className="flex items-center py-4 border-b border-gray-600 pb-6 last:border-b-0 w-full">
-                  < a href={item.href} className={`text-base text-gray-300 w-full hover:text-gray-50 ${index === navItems.length - 1 ? "w-fit" : ""} `}>{item.label}</a>
+                  < a href={item.href} className="text-base text-gray-300 w-full hover:text-gray-50">{item.label}</a>
                   {index === navItems.length - 1 && (
                     <span className="bg-red-600 text-white px-2 pt-[1px] pb-[2px] rounded-2xl text-[10px] ml-3 flex items-center">New</span>
                   )}
